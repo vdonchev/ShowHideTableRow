@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShowHIde Example</title>
+
+    <!--styles-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table>
+    <tr class="header">
+        <td><span class="hide-block">+</span></td>
+    </tr>
+    <tr id="1" style="display: none" data-hidden="true" class="block-content">
+        <td class="content"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est magni maxime nulla omnis pariatur placeat quo recusandae unde. Commodi cupiditate eum nisi sunt! Aut eius quaerat repellat soluta totam. Nobis.</p></td>
+    </tr>
+    <tr class="footer"></tr>
+</table>
+
+<table>
+    <tr class="header">
+        <td><span class="hide-block">+</span></td>
+    </tr>
+    <tr id="2" style="display: none" data-hidden="true" class="block-content">
+        <td class="content"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt eaque est excepturi explicabo ipsa minima molestiae mollitia, nihil numquam optio, pariatur, perspiciatis quisquam quos sequi totam voluptates voluptatum. Rerum, suscipit.</p></td>
+    </tr>
+    <tr class="footer"></tr>
+</table>
+
+<table>
+    <tr class="header">
+        <td><span class="hide-block">+</span></td>
+    </tr>
+    <tr id="3" style="display: none" data-hidden="true" class="block-content">
+        <td class="content"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda cupiditate dolor eos error facere libero mollitia nam odit, provident quasi quos, ratione sed suscipit totam veniam vero voluptatibus voluptatum!</p></td>
+    </tr>
+    <tr class="footer"></tr>
+</table>
+
+<!--scripts-->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="block-controls.js"></script>
+<script>
+    $(document).ready(initBlockControls);
+</script>
+</body>
+</html>

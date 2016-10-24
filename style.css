@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    display: table;
+    width: 800px;
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.header {
+    height: 20px;
+    background: slategray;
+    color: white;
+}
+
+.header span {
+    padding: 0 10px;
+    float: right;
+}
+
+span {
+    cursor: pointer;
+}
+
+.content {
+    padding: 10px;
+}
